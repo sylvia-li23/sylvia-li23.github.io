@@ -3950,3 +3950,23 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* === Custom Bio Section Styles === */
+.bio-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.bio-image img {
+    width: 150px;       /* adjust as needed */
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio-text {
+    flex: 1;
+}
