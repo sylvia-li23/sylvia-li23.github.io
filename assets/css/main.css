@@ -3959,9 +3959,9 @@ input, select, textarea {
 }
 
 .bio-image img {
-    width: 150px;       /* adjust as needed */
-    max-width: 100%;
-    height: auto;
+    width: 150px !important;
+    height: auto !important;
+    max-width: 100% !important;
     border-radius: 12px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
